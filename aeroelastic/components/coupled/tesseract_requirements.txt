@@ -1,0 +1,7 @@
+# Pinned to the versions that produced every committed result; see ../../../requirements.txt.
+# No autodiff framework and no solver. This component differentiates nothing: it transposes a loop
+# whose every term arrives from aero-a1 or struct-s1 over HTTP. tesseract-core is here because the
+# facade is a CLIENT of two other Tesseracts, which is the whole of what it is.
+tesseract-core==1.11.0
+numpy==2.4.6
+pydantic==2.13.4

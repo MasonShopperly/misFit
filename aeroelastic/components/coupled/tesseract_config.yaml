@@ -1,0 +1,12 @@
+# Packaging for `tesseract build aeroelastic/components/coupled`.
+# The build context is a copytree of THIS directory. It stays api + config + requirements because
+# there is nothing else to carry: this component holds no physics at all, and routes every
+# evaluation to A1 and S1 over HTTP.
+name: "coupled-c1"
+version: "0.1.0"
+description: "The assembled aeroelastic objective exposed as one Tesseract. A facade over aero-a1 and struct-s1: it holds no physics, routes every evaluation to those two over HTTP, and exists so the platform's own check-gradients can be asked whether a supplied derivative belongs to the composed objective rather than to one component."
+
+build_config:
+  target_platform: "native"
+  # No package_data. A composed Tesseract that needed a copy of the model files would not be a
+  # composition; it would be a third implementation.

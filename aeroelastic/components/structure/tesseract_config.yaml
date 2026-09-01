@@ -1,0 +1,11 @@
+# Packaging for `tesseract build aeroelastic/components/structure`.
+name: "struct-s1"
+version: "0.1.0"
+description: "Cantilever torsion beam with an adjoint derived by hand in NumPy. Exposes apply and derivative endpoints; supplies the structural half of the coupled aeroelastic pair."
+
+build_config:
+  target_platform: "native"
+  # Deliberately NO jax: this component's derivative is hand-derived and verified three ways
+  # against the identity, JAX and central differences. The heterogeneity is the point, so the
+  # container carries no autodiff framework at all.
+  # No package_data either. The beam is implemented here, not imported from aeroelastic/core/.

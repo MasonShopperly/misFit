@@ -1,0 +1,31 @@
+# Host environment for this repository, pinned to the versions that produced every committed
+# result. Python 3.11.15.
+#
+# WHY THIS FILE EXISTS. Each served component carries its own pinned
+# `tesseract_requirements.txt`, so the containerized halves were reproducible while the host
+# environment that actually ran every experiment was not pinned at all. A reader installing from an
+# unpinned line got whatever was current, not what produced the numbers. These are those versions.
+#
+#   uv venv --python 3.11 .venv
+#   uv pip install --python .venv/bin/python -r requirements.txt
+#
+# (plain `python -m venv .venv && .venv/bin/pip install -r requirements.txt` works too; `uv` is
+# what was used here and is faster.)
+
+# --- the four third-party packages the checking and figure code needs, and nothing else. PyYAML is
+#     not imported by tracked code; the runtime parses each component's `tesseract_config.yaml`.
+numpy==2.4.6
+matplotlib==3.11.1
+PyYAML==6.0.3
+tesseract-core[runtime]==1.11.0
+
+# --- required additionally by the experiment drivers and the served components.
+#     jax_enable_x64 is set in code (aeroelastic/core/aero_struct.py and
+#     aeroelastic/components/aero/tesseract_api.py), not here: JAX defaults to float32 on this
+#     platform, and float64 is load-bearing for the finite-difference probes, whose remainders
+#     run near the machine floor.
+jax==0.10.2
+jaxlib==0.10.2
+equinox==0.13.8
+pydantic==2.13.4
+scipy==1.17.1

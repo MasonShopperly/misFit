@@ -1,0 +1,130 @@
+{
+ "speeds": [
+  {
+   "v": 30.0,
+   "q_over_qd": 0.10506727479722952,
+   "cdi_coupled": 0.005540006986021522,
+   "cdi_aero_only": 0.005005807318369522,
+   "excess_pct": -9.642581119480287,
+   "cl_coupled": 0.5000000000000001,
+   "cl_aero_only": 0.5000000000000001,
+   "grad_cos_rigid_vs_coupled": 0.9999363079297288,
+   "grad_rel_diff": 0.11412860719865205
+  },
+  {
+   "v": 40.0,
+   "q_over_qd": 0.18678626630618586,
+   "cdi_coupled": 0.00542280257156224,
+   "cdi_aero_only": 0.005038240633570367,
+   "excess_pct": -7.091571801056473,
+   "cl_coupled": 0.49999999999999983,
+   "cl_aero_only": 0.49999999999999994,
+   "grad_cos_rigid_vs_coupled": 0.9997846907736436,
+   "grad_rel_diff": 0.23294187940481934
+  },
+  {
+   "v": 50.0,
+   "q_over_qd": 0.2918535411034153,
+   "cdi_coupled": 0.005287903877968043,
+   "cdi_aero_only": 0.005111949749838586,
+   "excess_pct": -3.327483482870519,
+   "cl_coupled": 0.5000000000000001,
+   "cl_aero_only": 0.49999999999999994,
+   "grad_cos_rigid_vs_coupled": 0.9994081527578842,
+   "grad_rel_diff": 0.4490722869460189
+  },
+  {
+   "v": 55.0,
+   "q_over_qd": 0.3531427847351326,
+   "cdi_coupled": 0.005218452193624031,
+   "cdi_aero_only": 0.005173361835489815,
+   "excess_pct": -0.8640561695536508,
+   "cl_coupled": 0.49999999999999994,
+   "cl_aero_only": 0.5000000000000001,
+   "grad_cos_rigid_vs_coupled": 0.9990469353429836,
+   "grad_rel_diff": 0.6287469664275451
+  },
+  {
+   "v": 56.0,
+   "q_over_qd": 0.36610108196012425,
+   "cdi_coupled": 0.005204717428492451,
+   "cdi_aero_only": 0.0051882167845928705,
+   "excess_pct": -0.3170324638423261,
+   "cl_coupled": 0.4999999999999997,
+   "cl_aero_only": 0.49999999999999994,
+   "grad_cos_rigid_vs_coupled": 0.9989512505040249,
+   "grad_rel_diff": 0.6741649023569021
+  },
+  {
+   "v": 57.0,
+   "q_over_qd": 0.3792928620179986,
+   "cdi_coupled": 0.005191090072902549,
+   "cdi_aero_only": 0.005204034930979503,
+   "excess_pct": 0.24936685542265025,
+   "cl_coupled": 0.5000000000000001,
+   "cl_aero_only": 0.5,
+   "grad_cos_rigid_vs_coupled": 0.998845207435226,
+   "grad_rel_diff": 0.72369559389745
+  },
+  {
+   "v": 58.0,
+   "q_over_qd": 0.39271812490875574,
+   "cdi_coupled": 0.00517759619648339,
+   "cdi_aero_only": 0.005220865579464865,
+   "excess_pct": 0.8357040862101872,
+   "cl_coupled": 0.4999999999999997,
+   "cl_aero_only": 0.4999999999999997,
+   "grad_cos_rigid_vs_coupled": 0.9987272640126827,
+   "grad_rel_diff": 0.7778948069992625
+  },
+  {
+   "v": 60.0,
+   "q_over_qd": 0.4202690991889181,
+   "cdi_coupled": 0.005151119385150377,
+   "cdi_aero_only": 0.005257772578954707,
+   "excess_pct": 2.070485768817343,
+   "cl_coupled": 0.49999999999999983,
+   "cl_aero_only": 0.4999999999999997,
+   "grad_cos_rigid_vs_coupled": 0.998447712399099,
+   "grad_rel_diff": 0.9030752301634105
+  },
+  {
+   "v": 70.0,
+   "q_over_qd": 0.572032940562694,
+   "cdi_coupled": 0.005037458862438071,
+   "cdi_aero_only": 0.005523064615218052,
+   "excess_pct": 9.63989515429915,
+   "cl_coupled": 0.5,
+   "cl_aero_only": 0.5000000000000002,
+   "grad_cos_rigid_vs_coupled": 0.9946749222522828,
+   "grad_rel_diff": 2.2947205332356932
+  },
+  {
+   "v": 80.0,
+   "q_over_qd": 0.7471450652247434,
+   "cdi_coupled": 0.004986920004513685,
+   "cdi_aero_only": 0.005981302448301036,
+   "excess_pct": 19.93981140438048,
+   "cl_coupled": 0.5000000000000003,
+   "cl_aero_only": 0.5000000000000001,
+   "grad_cos_rigid_vs_coupled": 0.02854421260569609,
+   "grad_rel_diff": 34.6752196691982
+  },
+  {
+   "v": 90.0,
+   "q_over_qd": 0.9456054731750657,
+   "cdi_coupled": 0.00506478611812919,
+   "cdi_aero_only": 0.0067489134380321475,
+   "excess_pct": 33.2516967276208,
+   "cl_coupled": 0.5000000000000001,
+   "cl_aero_only": 0.49999999999999617,
+   "grad_cos_rigid_vs_coupled": -0.9963531879857972,
+   "grad_rel_diff": 3.4164107186119823
+  }
+ ],
+ "crossover_v": 57.0,
+ "design_point_v": 80.0,
+ "grad_cos_at_design": 0.02854421260569609,
+ "grad_cos_at_low_q": 0.9999363079297288,
+ "note": "both committed designs re-trimmed at each speed; nothing re-optimized"
+}

@@ -1,0 +1,64 @@
+{
+ "qualification": {
+  "verdict": "FAIL",
+  "orders": [
+   0.9999671254636204,
+   1.000086524835708
+  ],
+  "objective_applies": 12,
+  "http": {
+   "aero.A1.apply": 879,
+   "struct.S1.apply": 879,
+   "aero.A1.vector_jacobian_product": 1,
+   "struct.S1.vector_jacobian_product": 1
+  }
+ },
+ "aero_only": {
+  "J_own": 0.9344712762273999,
+  "J_coupled": 1.085122745063561,
+  "x": [
+   -0.028502654627338014,
+   -0.038613200857580174,
+   -0.1,
+   -0.7,
+   -0.7,
+   -0.7
+  ],
+  "cdi": 0.005981302448262721,
+  "mass": 0.4965853037914093,
+  "cl": 0.49999999999867456,
+  "q_over_qd": 0.7471450652247434,
+  "nit": 19,
+  "http": {
+   "aero.A1.apply": 668,
+   "struct.S1.apply": 668,
+   "aero.A1.vector_jacobian_product": 115,
+   "struct.S1.vector_jacobian_product": 115
+  }
+ },
+ "optimize": {
+  "J0": 1.3499999999982095,
+  "J": 0.9336175307578589,
+  "nit": 30,
+  "x": [
+   0.04929049244489044,
+   -0.024619349486026912,
+   -0.09959392693790975,
+   -0.7,
+   -0.7,
+   -0.7
+  ],
+  "cl": 0.4999999999988228,
+  "cdi": 0.004986920004490202,
+  "mass": 0.49658530379140936,
+  "q_over_qd": 0.7471450652247434,
+  "wall_s": 79.4356231270358,
+  "http": {
+   "aero.A1.apply": 12225,
+   "struct.S1.apply": 12225,
+   "aero.A1.vector_jacobian_product": 2227,
+   "struct.S1.vector_jacobian_product": 2227
+  }
+ },
+ "both_participate": true
+}

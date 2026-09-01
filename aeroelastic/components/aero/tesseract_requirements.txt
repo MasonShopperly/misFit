@@ -1,0 +1,9 @@
+# Pinned to the versions that produced every committed result; see ../../../requirements.txt.
+# Float64 is configured in code, not here: tesseract_api.py sets jax_enable_x64 before any array
+# is created, which is load-bearing -- JAX defaults to float32 on this platform, and this
+# component declares Float64.
+jax==0.10.2
+jaxlib==0.10.2
+equinox==0.13.8
+numpy==2.4.6
+pydantic==2.13.4

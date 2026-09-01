@@ -1,0 +1,24 @@
+{
+ "rigid": {
+  "cl": 0.5000000000000001,
+  "cdi": 0.005981302448301036,
+  "mass": 0.49658530379140936,
+  "q_over_qd": 0.7471450652247434
+ },
+ "coupled": {
+  "cl": 0.5000000000000003,
+  "cdi": 0.004986920004513685,
+  "mass": 0.49658530379140936,
+  "q_over_qd": 0.7471450652247434
+ },
+ "structure_ratio": 1.0,
+ "aero_only_self_scored": 0.9344712762273999,
+ "aero_only_coupled_scored": 1.085122745063561,
+ "coupled_scored": 0.9336175307578589,
+ "aero_only_worse_pct": 16.22776022454491,
+ "aero_only_drag_excess_pct": 19.93981140438048,
+ "path_uphill_fraction": 1.0,
+ "path_r_hat_min": -24.35729424213922,
+ "path_cos_min": -0.9968180648250651,
+ "eta_1": 0.01
+}

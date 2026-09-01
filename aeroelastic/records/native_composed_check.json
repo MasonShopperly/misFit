@@ -1,0 +1,489 @@
+{
+ "before-a/matched-coupled": {
+  "point": "before-a",
+  "pairing": "matched-coupled",
+  "x": [
+   0.0,
+   -0.010035643198967395,
+   -0.02007128639793479,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "exit": 0,
+  "verdicts": {
+   "jacobian": "passed",
+   "jacobian_vector_product": "passed",
+   "vector_jacobian_product": "passed"
+  },
+  "failures": [
+   0,
+   0,
+   0
+  ],
+  "checks": [
+   60,
+   60,
+   60
+  ],
+  "http_calls": {
+   "_total": 9386,
+   "aero.A1.apply": 4153,
+   "aero.A1.vector_jacobian_product": 540,
+   "struct.S1.apply": 4153,
+   "struct.S1.vector_jacobian_product": 540
+  },
+  "http_instances": 2,
+  "wall_s": 24.1,
+  "failing_indices": {},
+  "stderr_tail": []
+ },
+ "before-a/matched-rigid": {
+  "point": "before-a",
+  "pairing": "matched-rigid",
+  "x": [
+   0.0,
+   -0.010035643198967395,
+   -0.02007128639793479,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "exit": 0,
+  "verdicts": {
+   "jacobian": "passed",
+   "jacobian_vector_product": "passed",
+   "vector_jacobian_product": "passed"
+  },
+  "failures": [
+   0,
+   0,
+   0
+  ],
+  "checks": [
+   60,
+   60,
+   60
+  ],
+  "http_calls": {
+   "_total": 330,
+   "aero.A1.apply": 147,
+   "aero.A1.vector_jacobian_product": 18,
+   "struct.S1.apply": 147,
+   "struct.S1.vector_jacobian_product": 18
+  },
+  "http_instances": 2,
+  "wall_s": 1.8,
+  "failing_indices": {},
+  "stderr_tail": []
+ },
+ "before-a/crossed-rigid": {
+  "point": "before-a",
+  "pairing": "crossed-rigid",
+  "x": [
+   0.0,
+   -0.010035643198967395,
+   -0.02007128639793479,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "exit": 1,
+  "verdicts": {
+   "jacobian": "failed",
+   "jacobian_vector_product": "failed",
+   "vector_jacobian_product": "failed"
+  },
+  "failures": [
+   60,
+   60,
+   60
+  ],
+  "checks": [
+   60,
+   60,
+   60
+  ],
+  "http_calls": {
+   "_total": 3446,
+   "aero.A1.apply": 1705,
+   "aero.A1.vector_jacobian_product": 18,
+   "struct.S1.apply": 1705,
+   "struct.S1.vector_jacobian_product": 18
+  },
+  "http_instances": 2,
+  "wall_s": 9.0,
+  "failing_indices": {
+   "0": {
+    "declared": -1.2233344077983888,
+    "finite_difference": -3.218276852801072
+   },
+   "1": {
+    "declared": -1.0125351284128943,
+    "finite_difference": -0.5863930670035877
+   },
+   "2": {
+    "declared": 2.235869536211255,
+    "finite_difference": 3.8046699199689726
+   },
+   "3": {
+    "declared": 0.08749999999999998,
+    "finite_difference": 0.04459467460637967
+   },
+   "4": {
+    "declared": 0.17499999999999993,
+    "finite_difference": 0.07797984244106715
+   },
+   "5": {
+    "declared": 0.08749999999999997,
+    "finite_difference": 0.07355018627031029
+   }
+  },
+  "stderr_tail": []
+ },
+ "inside-a/matched-coupled": {
+  "point": "inside-a",
+  "pairing": "matched-coupled",
+  "x": [
+   0.0,
+   -0.045029494701453704,
+   -0.09005898940290741,
+   -0.5,
+   -0.5,
+   -0.5
+  ],
+  "exit": 0,
+  "verdicts": {
+   "jacobian": "passed",
+   "jacobian_vector_product": "passed",
+   "vector_jacobian_product": "passed"
+  },
+  "failures": [
+   0,
+   0,
+   0
+  ],
+  "checks": [
+   60,
+   60,
+   60
+  ],
+  "http_calls": {
+   "_total": 18778,
+   "aero.A1.apply": 8381,
+   "aero.A1.vector_jacobian_product": 1008,
+   "struct.S1.apply": 8381,
+   "struct.S1.vector_jacobian_product": 1008
+  },
+  "http_instances": 2,
+  "wall_s": 47.6,
+  "failing_indices": {},
+  "stderr_tail": []
+ },
+ "inside-a/matched-rigid": {
+  "point": "inside-a",
+  "pairing": "matched-rigid",
+  "x": [
+   0.0,
+   -0.045029494701453704,
+   -0.09005898940290741,
+   -0.5,
+   -0.5,
+   -0.5
+  ],
+  "exit": 0,
+  "verdicts": {
+   "jacobian": "passed",
+   "jacobian_vector_product": "passed",
+   "vector_jacobian_product": "passed"
+  },
+  "failures": [
+   0,
+   0,
+   0
+  ],
+  "checks": [
+   60,
+   60,
+   60
+  ],
+  "http_calls": {
+   "_total": 330,
+   "aero.A1.apply": 147,
+   "aero.A1.vector_jacobian_product": 18,
+   "struct.S1.apply": 147,
+   "struct.S1.vector_jacobian_product": 18
+  },
+  "http_instances": 2,
+  "wall_s": 1.7,
+  "failing_indices": {},
+  "stderr_tail": []
+ },
+ "inside-a/crossed-rigid": {
+  "point": "inside-a",
+  "pairing": "crossed-rigid",
+  "x": [
+   0.0,
+   -0.045029494701453704,
+   -0.09005898940290741,
+   -0.5,
+   -0.5,
+   -0.5
+  ],
+  "exit": 1,
+  "verdicts": {
+   "jacobian": "failed",
+   "jacobian_vector_product": "failed",
+   "vector_jacobian_product": "failed"
+  },
+  "failures": [
+   60,
+   60,
+   60
+  ],
+  "checks": [
+   60,
+   60,
+   60
+  ],
+  "http_calls": {
+   "_total": 6790,
+   "aero.A1.apply": 3377,
+   "aero.A1.vector_jacobian_product": 18,
+   "struct.S1.apply": 3377,
+   "struct.S1.vector_jacobian_product": 18
+  },
+  "http_instances": 2,
+  "wall_s": 16.3,
+  "failing_indices": {
+   "0": {
+    "declared": 1.0499812111820654,
+    "finite_difference": -1.8453367976423163
+   },
+   "1": {
+    "declared": -0.9318513351828627,
+    "finite_difference": -0.22912955883525044
+   },
+   "2": {
+    "declared": -0.11812987599936418,
+    "finite_difference": 2.074466356508653
+   },
+   "3": {
+    "declared": 0.053071432724855414,
+    "finite_difference": 0.012858576522445375
+   },
+   "4": {
+    "declared": 0.10614286544971081,
+    "finite_difference": 0.024719954049290394
+   },
+   "5": {
+    "declared": 0.05307143272485541,
+    "finite_difference": 0.04251221590645393
+   }
+  },
+  "stderr_tail": []
+ },
+ "design/matched-coupled": {
+  "point": "design",
+  "pairing": "matched-coupled",
+  "x": [
+   0.04929049244489044,
+   -0.024619349486026912,
+   -0.09959392693790975,
+   -0.7,
+   -0.7,
+   -0.7
+  ],
+  "exit": 0,
+  "verdicts": {
+   "jacobian": "passed",
+   "jacobian_vector_product": "passed",
+   "vector_jacobian_product": "passed"
+  },
+  "failures": [
+   0,
+   0,
+   0
+  ],
+  "checks": [
+   60,
+   60,
+   60
+  ],
+  "http_calls": {
+   "_total": 30564,
+   "aero.A1.apply": 13932,
+   "aero.A1.vector_jacobian_product": 1350,
+   "struct.S1.apply": 13932,
+   "struct.S1.vector_jacobian_product": 1350
+  },
+  "http_instances": 2,
+  "wall_s": 74.9,
+  "failing_indices": {},
+  "stderr_tail": []
+ },
+ "design/matched-rigid": {
+  "point": "design",
+  "pairing": "matched-rigid",
+  "x": [
+   0.04929049244489044,
+   -0.024619349486026912,
+   -0.09959392693790975,
+   -0.7,
+   -0.7,
+   -0.7
+  ],
+  "exit": 0,
+  "verdicts": {
+   "jacobian": "passed",
+   "jacobian_vector_product": "passed",
+   "vector_jacobian_product": "passed"
+  },
+  "failures": [
+   0,
+   0,
+   0
+  ],
+  "checks": [
+   60,
+   60,
+   60
+  ],
+  "http_calls": {
+   "_total": 330,
+   "aero.A1.apply": 147,
+   "aero.A1.vector_jacobian_product": 18,
+   "struct.S1.apply": 147,
+   "struct.S1.vector_jacobian_product": 18
+  },
+  "http_instances": 2,
+  "wall_s": 1.8,
+  "failing_indices": {},
+  "stderr_tail": []
+ },
+ "design/crossed-rigid": {
+  "point": "design",
+  "pairing": "crossed-rigid",
+  "x": [
+   0.04929049244489044,
+   -0.024619349486026912,
+   -0.09959392693790975,
+   -0.7,
+   -0.7,
+   -0.7
+  ],
+  "exit": 1,
+  "verdicts": {
+   "jacobian": "failed",
+   "jacobian_vector_product": "failed",
+   "vector_jacobian_product": "failed"
+  },
+  "failures": [
+   32,
+   36,
+   34
+  ],
+  "checks": [
+   60,
+   60,
+   60
+  ],
+  "http_calls": {
+   "_total": 11160,
+   "aero.A1.apply": 5562,
+   "aero.A1.vector_jacobian_product": 18,
+   "struct.S1.apply": 5562,
+   "struct.S1.vector_jacobian_product": 18
+  },
+  "http_instances": 2,
+  "wall_s": 25.9,
+  "failing_indices": {
+   "0": {
+    "declared": 2.951444617849321,
+    "finite_difference": -1.6893064724854412e-06
+   },
+   "1": {
+    "declared": -0.8442417889583815,
+    "finite_difference": 1.1308498581996673e-06
+   },
+   "2": {
+    "declared": -2.1072028288910025,
+    "finite_difference": 5.585465423507685e-07
+   }
+  },
+  "stderr_tail": []
+ },
+ "_summary": {
+  "verdict": "NATIVE_DISCRIMINATES",
+  "seed": 20260806,
+  "eps": 0.0001,
+  "rtol": 0.1,
+  "max_evals": 60,
+  "points": [
+   "before-a",
+   "inside-a",
+   "design"
+  ],
+  "pairings": [
+   "matched-coupled",
+   "matched-rigid",
+   "crossed-rigid"
+  ],
+  "endpoints": [
+   "jacobian",
+   "jacobian_vector_product",
+   "vector_jacobian_product"
+  ],
+  "v": 80.0,
+  "cl_target": 0.5,
+  "cdi_ref": 0.00656335459025786,
+  "mass_ref": 1.0000000000000002,
+  "tesseract_core": "1.11.0",
+  "coverage_indices_per_endpoint": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  ],
+  "facade_vs_monolithic": {
+   "before-a": {
+    "j_rel": 2.764392599329038e-12,
+    "coupled_grad_rel": 6.0995196180481714e-12,
+    "rigid_grad_rel": 7.150332922238828e-15
+   },
+   "inside-a": {
+    "j_rel": 4.785690554609218e-12,
+    "coupled_grad_rel": 2.917785141887525e-11,
+    "rigid_grad_rel": 8.025470043809601e-14
+   },
+   "design": {
+    "j_rel": 6.99073001501031e-12,
+    "coupled_grad_rel": 1.3827873900333843e-09,
+    "rigid_grad_rel": 1.0833482327885798e-14
+   }
+  },
+  "matched_all_passed": true,
+  "crossed_all_failed": true,
+  "total_http_calls": 81114
+ }
+}

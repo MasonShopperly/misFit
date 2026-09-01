@@ -1,0 +1,5 @@
+# Pinned to the versions that produced every committed result; see ../../../requirements.txt.
+# No autodiff framework: this component's adjoint is derived by hand. That the two halves of the
+# coupled pair do not share a differentiation stack is what the submission is about.
+numpy==2.4.6
+pydantic==2.13.4

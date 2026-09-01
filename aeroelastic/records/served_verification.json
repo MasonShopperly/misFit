@@ -1,0 +1,46 @@
+{
+ "forward": [
+  {
+   "v": 40.0,
+   "q_over_qd": 0.09935260700220977,
+   "round_trips": 12,
+   "theta_rel_err": 1.041082910130432e-12,
+   "cl_served": 0.2660840879533072,
+   "cl_mono": 0.26608408795345945
+  },
+  {
+   "v": 80.0,
+   "q_over_qd": 0.3974104280088391,
+   "round_trips": 30,
+   "theta_rel_err": 1.0385878480749953e-12,
+   "cl_served": 0.3499178583238751,
+   "cl_mono": 0.3499178583241085
+  },
+  {
+   "v": 100.0,
+   "q_over_qd": 0.620953793763811,
+   "round_trips": 57,
+   "theta_rel_err": 1.6341264512265895e-12,
+   "cl_served": 0.4970536140808903,
+   "cl_mono": 0.4970536140815027
+  }
+ ],
+ "backward": [
+  {
+   "v": 60.0,
+   "adjoint_round_trips": 18,
+   "grad_rel_err": 1.3156861868788434e-11
+  },
+  {
+   "v": 80.0,
+   "adjoint_round_trips": 27,
+   "grad_rel_err": 8.95011471213278e-11
+  }
+ ],
+ "calls": {
+  "aero.A1.apply": 345,
+  "struct.S1.apply": 345,
+  "aero.A1.vector_jacobian_product": 47,
+  "struct.S1.vector_jacobian_product": 47
+ }
+}

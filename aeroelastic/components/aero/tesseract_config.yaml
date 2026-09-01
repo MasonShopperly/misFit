@@ -1,0 +1,12 @@
+# Packaging for `tesseract build aeroelastic/components/aero`.
+# The build context is a copytree of THIS directory, and the image carries nothing else: this
+# component implements its own aerodynamics and does not import the reference model in
+# aeroelastic/core/. The committed evidence lives in aeroelastic/records/ and never enters a context.
+name: "aero-a1"
+version: "0.1.0"
+description: "Prandtl lifting line in Glauert Fourier form, differentiated by JAX autodiff. Exposes apply and derivative endpoints; supplies the aerodynamic half of the coupled aeroelastic pair."
+
+build_config:
+  target_platform: "native"
+  # No package_data. A component that shipped a copy of the reference model would not be an
+  # independent implementation of it, which is the only reason this component is interesting.
