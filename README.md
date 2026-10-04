@@ -3,6 +3,7 @@
 Measuring where a rigid-wing aerodynamic gradient stops being a useful basis for designing a
 flexible wing.
 
+<!-- orient: why -->
 A wing twists under the air holding the aircraft up, and the twist changes the lift, so optimising a
 wing from aerodynamics alone means differentiating a shape that does not deform. That gradient is
 not wrong. It is the exact derivative of the rigid-wing objective, it is a sound approximation of
