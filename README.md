@@ -56,7 +56,7 @@ A design is counted against the rigid gradient when a step along it returns less
 first-order decrease that gradient predicts. That is a step-usefulness criterion, not a cosine
 threshold, and it is what every comparator below is scored against.
 
-## Result
+## Result <!-- orient: outputs -->
 
 ![Two line charts of the cosine between the aerodynamic-only gradient and the coupled gradient.
 Left, swept against dynamic pressure as a fraction of divergence pressure: at the optimized design
@@ -148,7 +148,7 @@ needed no numerical checking code of its own.
 The contribution here is the application and the measured validity boundary, not a new aeroelastic
 coupling or differentiation method.
 
-## Implementation
+## Implementation <!-- orient: structure -->
 
 | Tesseract | role | differentiation |
 |---|---|---|
@@ -188,7 +188,7 @@ matched rows are the control, measured at the same points with the same toleranc
 sampling. Details, including what those resample counts do and do not mean, are in
 [`results/native_composed_check.md`](results/native_composed_check.md).
 
-## Reproduce
+## Reproduce <!-- orient: use verify -->
 
 Python 3.11 on CPU, no Docker, no GPU. The direct Python dependencies are pinned in
 `requirements.txt` to the versions used for the committed runs.
@@ -236,7 +236,7 @@ Full reproduction route — the tolerance semantics, which figures re-render byt
 exactly what changes in your working tree when you run any of this:
 [`docs/reproduce.md`](docs/reproduce.md).
 
-## Limitations
+## Limitations <!-- orient: limits -->
 
 - **Reduced-order model.** Lifting line plus a torsion beam, not Navier–Stokes and not a full
   aircraft. Invalid at low aspect ratio, with sweep, in compressible flow, or near stall.
